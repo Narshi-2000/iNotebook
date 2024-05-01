@@ -1,0 +1,259 @@
+.App {
+  text-align: center;
+}
+
+.navbar{
+  background-color:rgb(111 111 194);
+}
+
+.nav-link{
+  font-weight:700;
+  color:white;
+  margin-left:20px;
+  font-size:18px;
+  border-radius:5px;
+}
+
+.nav-link:hover{
+  background-color:rgb(158, 152, 197);
+  color:black;
+  
+}
+.navbar-brand{
+  font-weight:750;
+  color:white;
+  font-size:20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.navbar-brand:hover{
+  color:white;
+  text-shadow: 2px 2px 16px #000000;
+}
+
+.btn-custom{
+  border:none;
+  border-radius:5px;
+  font-weight:700;
+  color:white;
+  font-size:18px;
+}
+
+.btn-custom:hover{
+  cursor:pointer;
+  background-color:rgb(158, 152, 197);
+  color:black;
+}
+
+.outer-div{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.login-div{
+  width:540px;
+  border-radius:10px;
+  border:1px solid rgb(177, 172, 172);
+}
+
+.login-div h2{
+  text-align:center;
+  background-color:rgb(111 111 194);
+  color:white;
+  padding:20px;
+  border-radius:10px 10px 0px 0px;
+  font-size:28px;
+  text-shadow: 1px 1px 2px #000000;
+  margin-bottom:35px;
+}
+
+.login-div input{
+  width:90%;
+  margin:auto;
+  border:1px solid rgb(194, 188, 188);
+}
+
+.login-div input:focus{
+  border:1px solid rgb(111 111 194);
+  box-shadow:none;
+}
+.login-div label{
+  padding-left:30px;
+}
+
+#emailHelp{
+  padding-left:30px;
+}
+
+.login-div .btn-custom{
+  background-color:rgb(111 111 194);
+  margin:15px 225px 30px auto;
+  padding-left:20px;
+  padding-right:20px;
+  margin-left:225px;
+}
+
+.addnote-div{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.addnote{
+  width:774px;
+  border:1px solid rgb(182, 175, 175);
+  border-radius:10px;
+}
+
+.addnote h1{
+  text-align:center;
+  background-color:rgb(111 111 194);
+  color:white;
+  padding:20px;
+  border-radius:10px 10px 0px 0px;
+  font-size:28px;
+  text-shadow: 1px 1px 2px #000000;
+  margin-bottom:35px;
+}
+
+.addnote label{
+  padding-left:40px;
+  font-size:18px;
+  font-weight:600;
+}
+
+.addnote input{
+  width:90%;
+  margin:auto;
+  border:1px solid rgb(194, 188, 188);
+}
+
+.addnote input:focus{
+  border:1px solid rgb(111 111 194);
+  box-shadow:none;
+}
+
+.btn-custom-1{
+  border:none;
+  border-radius:5px;
+  font-weight:700;
+  color:white;
+  font-size:18px;
+  background-color:rgb(111 111 194);
+  padding-left:20px;
+  padding-right:20px;
+  margin-left:312px;
+}
+
+.btn-custom-1:hover{
+  background-color:rgb(111 111 194);
+  color:black;
+}
+
+.btn-custom-1:disabled{
+  border:1px solid grey;
+}
+
+.card-title{
+  font-size:22px;
+  padding:10px;
+  text-align:center;
+  font-weight:650;
+  background-color:rgb(111 111 194);
+  color:white;
+  text-shadow: 1px 1px 1px #000000; 
+  border-radius:5px 5px 0px 0px;
+}
+
+.card-text{
+  padding:10px;
+  font-size:18px;
+}
+.icons{
+  display:flex;
+  margin-left:20px;
+  margin-right:20px;
+  justify-content:space-between;
+  margin-bottom:20px;
+}
+
+.card{
+  background-color:rgb(235, 235, 253);
+  border:1px solid rgb(111 111 194);
+}
+
+.card:hover{
+  box-shadow:1px 1px 2px #000000;
+}
+
+.card-body{
+  padding:0;
+}
+
+.icons i{
+  padding:13px;
+  border-radius:50px;
+  background-color:rgb(202, 202, 206);
+}
+
+.icons i:hover{
+  box-shadow:1px 1px 2px #000000;
+}
+
+.btn-custom-2{
+  border:none;
+  border-radius:5px;
+  font-weight:700;
+  color:white;
+  font-size:18px;
+  background-color:rgb(111 111 194);
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.modal-title{
+  font-size:22px;
+  padding:10px;
+  text-align:center;
+  font-weight:650;
+  background-color:rgb(111 111 194);
+  color:white;
+  text-shadow: 1px 1px 1px #000000; 
+  border-radius:5px 5px 0px 0px;
+}
+
+.modal-header{
+  background-color:rgb(111 111 194);
+  text-align:center;
+}
+
+.about-div{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.about-div .details{
+  padding:50px;
+}
+
+.about-div .title{
+  font-size:58px;
+  font-weight:800;
+}
+
+.about-div h1{
+  text-shadow:1px 1px 2px #000000;
+}
+
+.about-div .description{
+  font-size:20px;
+  line-height:40px;
+  margin-top:30px;
+}
+
+.about-div img{
+  height: 496px;
+  width: 587px;
+}
